@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{523AD1D7-E356-4D8C-B272-6E3E18A4BDAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SAMU_Centre_15.My.MyApplication</StartupObject>
+    <RootNamespace>SAMU_Centre_15</RootNamespace>
+    <AssemblyName>Alerte Urgence</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Antoine Renard\Documents\Alerte d%27Urgence\publication\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://alerte-urgence.000webhostapp.com/update/</InstallUrl>
+    <UpdateUrl>https://alerte-urgence.000webhostapp.com/update/</UpdateUrl>
+    <ProductName>Alerte d%27Urgence</ProductName>
+    <PublisherName>Alerte d%27Urgence</PublisherName>
+    <SuiteName>Alerte d%27Urgence</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.html</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.43.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Alerte Urgence.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Alerte Urgence.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo 32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2C136710AE607E80514B137456924E12CB1D1D03</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Alerte Urgence_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Alerte Urgence_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Edition\adresses\dep72.vb" />
+    <Compile Include="blackUI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Edition\Centres\centreIncendieSecours.Designer.vb">
+      <DependentUpon>centreIncendieSecours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Centres\centreIncendieSecours.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Centres\menuCentres.Designer.vb">
+      <DependentUpon>menuCentres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Centres\menuCentres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Centres\nouveauCentre.Designer.vb">
+      <DependentUpon>nouveauCentre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Centres\nouveauCentre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev.Designer.vb">
+      <DependentUpon>dev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassINI.vb" />
+    <Compile Include="devmode.Designer.vb">
+      <DependentUpon>devmode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="devmode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\gestion\Appels.Designer.vb">
+      <DependentUpon>Appels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\gestion\Appels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-aviser17.Designer.vb">
+      <DependentUpon>cta-codis-aviser17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-aviser17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Parties\lancerJeuLibreSolo.Designer.vb">
+      <DependentUpon>lancerJeuLibreSolo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Parties\lancerJeuLibreSolo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\scripts\gestionAppels.vb" />
+    <Compile Include="Edition\scripts\gestionGlobal.vb" />
+    <Compile Include="erreur.Designer.vb">
+      <DependentUpon>erreur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="erreur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlashWindows.vb" />
+    <Compile Include="Edition\gestion\gestion.Designer.vb">
+      <DependentUpon>gestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\gestion\gestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-ajoutMoyen.Designer.vb">
+      <DependentUpon>cta-codis-ajoutMoyen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-ajoutMoyen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis.Designer.vb">
+      <DependentUpon>cta-codis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Interventions\POMPIERS\intSP1.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int10.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int9.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int8.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int7.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int6.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int5.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int4.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int3.vb" />
+    <Compile Include="Edition\Interventions\SAMU\int2.vb" />
+    <Compile Include="Edition\Interventions\générerDonnées.vb" />
+    <Compile Include="Edition\Interventions\variableAppel.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FlatUI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Interventions\SAMU\int1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Edition\Centres\scriptNouveauxCentres.vb" />
+    <Compile Include="Edition\Parties\gestionParties.Designer.vb">
+      <DependentUpon>gestionParties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Parties\gestionParties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Parties\nouvellePartie.Designer.vb">
+      <DependentUpon>nouvellePartie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Parties\nouvellePartie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\carte\carte.vb" />
+    <Compile Include="Edition\scripts\gestionsDossiers.vb" />
+    <Compile Include="start.Designer.vb">
+      <DependentUpon>start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="version.vb" />
+    <Compile Include="Edition\véhicules\liste-véhicule.vb" />
+    <Compile Include="Edition\véhicules\nouveauVéhicule.Designer.vb">
+      <DependentUpon>nouveauVéhicule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\véhicules\nouveauVéhicule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\véhicules\résumé-véhicule.Designer.vb">
+      <DependentUpon>résumé-véhicule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\véhicules\résumé-véhicule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Edition\Centres\centreIncendieSecours.resx">
+      <DependentUpon>centreIncendieSecours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Centres\menuCentres.resx">
+      <DependentUpon>menuCentres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Centres\nouveauCentre.resx">
+      <DependentUpon>nouveauCentre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev.resx">
+      <DependentUpon>dev.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devmode.resx">
+      <DependentUpon>devmode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\gestion\Appels.resx">
+      <DependentUpon>Appels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\interSP\cta-codis-aviser17.resx">
+      <DependentUpon>cta-codis-aviser17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Parties\lancerJeuLibreSolo.resx">
+      <DependentUpon>lancerJeuLibreSolo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="erreur.resx">
+      <DependentUpon>erreur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\gestion\gestion.resx">
+      <DependentUpon>gestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\interSP\cta-codis-ajoutMoyen.resx">
+      <DependentUpon>cta-codis-ajoutMoyen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\interSP\cta-codis.resx">
+      <DependentUpon>cta-codis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Parties\gestionParties.resx">
+      <DependentUpon>gestionParties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Parties\nouvellePartie.resx">
+      <DependentUpon>nouvellePartie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\véhicules\nouveauVéhicule.resx">
+      <DependentUpon>nouveauVéhicule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\véhicules\résumé-véhicule.resx">
+      <DependentUpon>résumé-véhicule.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alerte Urgence_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixe4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading-bar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="logo 32.ico" />
+    <None Include="Resources\17.wav" />
+    <None Include="Resources\sapeurs-pompiers.jpg" />
+    <None Include="Resources\samu.jpg" />
+    <None Include="Resources\police_secours.jpg" />
+    <None Include="Resources\alcatel-lucent-ringing.wav" />
+    <None Include="Resources\afficher le dossier.png" />
+    <None Include="Resources\suivi des moyens.png" />
+    <None Include="Resources\suivi des missions.png" />
+    <None Include="Resources\suivi des appels.png" />
+    <None Include="Resources\logo 50 -trans.png" />
+    <None Include="Resources\Eclipse-1s-32px.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
