@@ -1,0 +1,320 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UrgenceManager
+</name>
+</assembly>
+<members>
+<member name="P:SAMU_Centre_15.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources._15">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources._17">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources._18">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.actualité_accès_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.afficher_le_dossier">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.alcatel_lucent_ringing">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Alerte_d_Urgence_2020_blanc">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Alerte_d_Urgence_2020_blanc_couleur">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.aucunPluginSelect">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.bas">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.bordure_titre">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.débuter_service_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.débuter_service_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.demarrage">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.détails_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.détails_noir">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.doc_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.doc_noir">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Eclipse_1s_32px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.étoilePleine">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.étoileVide">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.fixe4">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.fondlibre">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.haut">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.jouer_mode_libre_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.jouer_mode_libre_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.l">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.lancer_service">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.liste_plugin">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.liste_plugin1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.loading_bar">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.logo_08_09_2019">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.logo_50__trans">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.logo_caré_vide">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.microphone24">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.mods_installés_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.mods_installés_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.mon_opérateur_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.mon_opérateur_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.msgModManquants">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.plugin_favori_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.police_secours">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.racrocher24">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.réglages_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.réglages_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.retour">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.samu">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.sapeurs_pompiers">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.sms24">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.statistiques_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.statistiques_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.succès_gris">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.succès_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.suivi_des_appels">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.suivi_des_missions">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.suivi_des_moyens">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.titre_zone_jaune">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.tonalité">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.uifx">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.uiMsg">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.uiWin">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_2020_blanc">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_2020_blanc_couleur">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_2020_blanc_couleur1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_2020_noir">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_2020_noir_couleur">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_blanc">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_couleur">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.Urgence_Manager_noir">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SAMU_Centre_15.My.Resources.Resources.ut_engune_blanc">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SAMU_Centre_15.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member><member name="T:SAMU_Centre_15.Helpers">
+	<summary>
+ Flat UI Theme
+ Creator: iSynthesis (HF)
+ Version: 1.0.4
+ Date Created: 17/06/2013
+ Date Changed: 26/06/2013
+ UID: 374648
+ For any bugs / errors, PM me.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SAMU_Centre_15.FlatAlertBox.W">
+	<summary>
+ How to use: FlatAlertBox.ShowControl(Kind, String, Interval)
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

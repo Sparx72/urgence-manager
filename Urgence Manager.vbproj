@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{523AD1D7-E356-4D8C-B272-6E3E18A4BDAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SAMU_Centre_15.My.MyApplication</StartupObject>
+    <RootNamespace>SAMU_Centre_15</RootNamespace>
+    <AssemblyName>Urgence Manager</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\publication\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://alerte-urgence.000webhostapp.com/update/</InstallUrl>
+    <UpdateUrl>https://alerte-urgence.000webhostapp.com/update/</UpdateUrl>
+    <ProductName>Urgence Manager 2020</ProductName>
+    <PublisherName>Urgence Manager 2020</PublisherName>
+    <SuiteName>Urgence Manager 2020</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.html</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.50.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Urgence Manager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Urgence Manager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo 08-09-2019.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>21A45CDC66A90490E8A6321EFE3E83C74E5DC5DB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Urgence Manager_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>um2020.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="configuration\Copie de configSyntheseVocale.Designer.vb">
+      <DependentUpon>Copie de configSyntheseVocale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="configuration\Copie de configSyntheseVocale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="console.Designer.vb">
+      <DependentUpon>console.vb</DependentUpon>
+    </Compile>
+    <Compile Include="console.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage.Designer.vb">
+      <DependentUpon>demarrage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configuration\configRecoVocale.Designer.vb">
+      <DependentUpon>configRecoVocale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="configuration\configRecoVocale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configuration\configuration.Designer.vb">
+      <DependentUpon>configuration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="configuration\configuration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\fermeture.Designer.vb">
+      <DependentUpon>fermeture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\fermeture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\home.Designer.vb">
+      <DependentUpon>home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\nouveau\conditionsUtilisation.Designer.vb">
+      <DependentUpon>conditionsUtilisation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\nouveau\conditionsUtilisation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\choixPlugin\choixPlugin.Designer.vb">
+      <DependentUpon>choixPlugin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\choixPlugin\choixPlugin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\réglages\apropos.Designer.vb">
+      <DependentUpon>apropos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\réglages\apropos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\statistiques\statistiques.Designer.vb">
+      <DependentUpon>statistiques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\statistiques\statistiques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\finAppel.vb" />
+    <Compile Include="game\menu\menuGame.Designer.vb">
+      <DependentUpon>menuGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\menu\menuGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\menu\listeInter.Designer.vb">
+      <DependentUpon>listeInter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\menu\listeInter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\votreDépart.Designer.vb">
+      <DependentUpon>votreDépart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\votreDépart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départ RDF.Designer.vb">
+      <DependentUpon>départ RDF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départ RDF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départDIR.Designer.vb">
+      <DependentUpon>départDIR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départDIR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départSC.Designer.vb">
+      <DependentUpon>départSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départFDO.Designer.vb">
+      <DependentUpon>départFDO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départFDO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départSAMU.Designer.vb">
+      <DependentUpon>départSAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départSAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départSP.Designer.vb">
+      <DependentUpon>départSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\départSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\dossierMédical.Designer.vb">
+      <DependentUpon>dossierMédical.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\dossierMédical.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\donnéeAppelSAMU.Designer.vb">
+      <DependentUpon>donnéeAppelSAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\donnéeAppelSAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\donnéeAppelFDO.Designer.vb">
+      <DependentUpon>donnéeAppelFDO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\donnéeAppelFDO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\prise d%27appel\donnéeAppelSP.Designer.vb">
+      <DependentUpon>donnéeAppelSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\prise d%27appel\donnéeAppelSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\répondreAppel.vb" />
+    <Compile Include="game\scriptAppel.vb" />
+    <Compile Include="messages\msgModManquants.Designer.vb">
+      <DependentUpon>msgModManquants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messages\msgModManquants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\nouveau\titre.Designer.vb">
+      <DependentUpon>titre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\nouveau\titre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\game.Designer.vb">
+      <DependentUpon>game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="monOpérateur\monOpérateur.Designer.vb">
+      <DependentUpon>monOpérateur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="monOpérateur\monOpérateur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\nouveau\tutoSyntheseVocal.Designer.vb">
+      <DependentUpon>tutoSyntheseVocal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\nouveau\tutoSyntheseVocal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\nouveau\créerProfile.Designer.vb">
+      <DependentUpon>créerProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\nouveau\créerProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\nouveau\scriptNouveau.vb" />
+    <Compile Include="demarrage\principal\menuBienvenue.Designer.vb">
+      <DependentUpon>menuBienvenue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\principal\menuBienvenue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\principal\menuJouer.Designer.vb">
+      <DependentUpon>menuJouer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\principal\menuJouer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\carte\carteCentre.vb" />
+    <Compile Include="Edition\Centres\vehicules.Designer.vb">
+      <DependentUpon>vehicules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Centres\vehicules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\chargementForm.Designer.vb">
+      <DependentUpon>chargementForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game\chargementForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\gestion\cartographie.Designer.vb">
+      <DependentUpon>cartographie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\gestion\cartographie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\gestion\etares.Designer.vb">
+      <DependentUpon>etares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\gestion\etares.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\gestion\departement.Designer.vb">
+      <DependentUpon>departement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\gestion\departement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\gestion\gestion.Designer.vb">
+      <DependentUpon>gestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\gestion\gestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messages\msgformOuiNon.Designer.vb">
+      <DependentUpon>msgformOuiNon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messages\msgformOuiNon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messages\msgBlackOuiNon.Designer.vb">
+      <DependentUpon>msgBlackOuiNon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messages\msgBlackOuiNon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messages\msgBlack.Designer.vb">
+      <DependentUpon>msgBlack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messages\msgBlack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messages\msgformInfo.Designer.vb">
+      <DependentUpon>msgformInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messages\msgformInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messages\msgscript.vb" />
+    <Compile Include="paramètres.Designer.vb">
+      <DependentUpon>paramètres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paramètres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scriptSon.vb" />
+    <Compile Include="UT Engine\Messages\UTEngineSPmessage.Designer.vb">
+      <DependentUpon>UTEngineSPmessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UT Engine\Messages\UTEngineSPmessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UT Engine\UTEngine.vb" />
+    <Compile Include="demarrage\splash.Designer.vb">
+      <DependentUpon>splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demarrage\maj.Designer.vb">
+      <DependentUpon>maj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\maj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="blackUI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Edition\Centres\centreIncendieSecours.Designer.vb">
+      <DependentUpon>centreIncendieSecours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Centres\centreIncendieSecours.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Centres\nouveauCentre.Designer.vb">
+      <DependentUpon>nouveauCentre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Centres\nouveauCentre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev.Designer.vb">
+      <DependentUpon>dev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassINI.vb" />
+    <Compile Include="devmode.Designer.vb">
+      <DependentUpon>devmode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="devmode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\gestion\Appels.Designer.vb">
+      <DependentUpon>Appels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\gestion\Appels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\interSP\suiviInterSP.Designer.vb">
+      <DependentUpon>suiviInterSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\interSP\suiviInterSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-aviser15.Designer.vb">
+      <DependentUpon>cta-codis-aviser15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-aviser15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-aviser17.Designer.vb">
+      <DependentUpon>cta-codis-aviser17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis-aviser17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\interSP\variableInterSP.vb" />
+    <Compile Include="Edition\Parties\lancerJeuLibreSolo.Designer.vb">
+      <DependentUpon>lancerJeuLibreSolo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Parties\lancerJeuLibreSolo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\gestionAppels.vb" />
+    <Compile Include="Edition\scripts\gestionGlobal.vb" />
+    <Compile Include="erreur.Designer.vb">
+      <DependentUpon>erreur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="erreur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlashWindows.vb" />
+    <Compile Include="Edition\interSP\cta-codis.Designer.vb">
+      <DependentUpon>cta-codis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\interSP\cta-codis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Interventions\générerDonnées.vb" />
+    <Compile Include="Edition\Interventions\variableAppel.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FlatUI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Edition\Centres\scriptNouveauxCentres.vb" />
+    <Compile Include="Edition\Parties\gestionParties.Designer.vb">
+      <DependentUpon>gestionParties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Parties\gestionParties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\Parties\nouvellePartie.Designer.vb">
+      <DependentUpon>nouvellePartie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edition\Parties\nouvellePartie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition\carte\carte.vb" />
+    <Compile Include="Edition\scripts\gestionsDossiers.vb" />
+    <Compile Include="demarrage\start.Designer.vb">
+      <DependentUpon>start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="demarrage\start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="version.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="configuration\Copie de configSyntheseVocale.resx">
+      <DependentUpon>Copie de configSyntheseVocale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="console.resx">
+      <DependentUpon>console.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage.resx">
+      <DependentUpon>demarrage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configuration\configRecoVocale.resx">
+      <DependentUpon>configRecoVocale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configuration\configuration.resx">
+      <DependentUpon>configuration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\fermeture.resx">
+      <DependentUpon>fermeture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\home.resx">
+      <DependentUpon>home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\nouveau\conditionsUtilisation.resx">
+      <DependentUpon>conditionsUtilisation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\choixPlugin\choixPlugin.resx">
+      <DependentUpon>choixPlugin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\réglages\apropos.resx">
+      <DependentUpon>apropos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\statistiques\statistiques.resx">
+      <DependentUpon>statistiques.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\menu\menuGame.resx">
+      <DependentUpon>menuGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\menu\listeInter.resx">
+      <DependentUpon>listeInter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\votreDépart.resx">
+      <DependentUpon>votreDépart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\départ RDF.resx">
+      <DependentUpon>départ RDF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\départDIR.resx">
+      <DependentUpon>départDIR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\départSC.resx">
+      <DependentUpon>départSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\départFDO.resx">
+      <DependentUpon>départFDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\départSAMU.resx">
+      <DependentUpon>départSAMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\départSP.resx">
+      <DependentUpon>départSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\dossierMédical.resx">
+      <DependentUpon>dossierMédical.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\donnéeAppelSAMU.resx">
+      <DependentUpon>donnéeAppelSAMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\donnéeAppelFDO.resx">
+      <DependentUpon>donnéeAppelFDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\prise d%27appel\donnéeAppelSP.resx">
+      <DependentUpon>donnéeAppelSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages\msgModManquants.resx">
+      <DependentUpon>msgModManquants.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\nouveau\titre.resx">
+      <DependentUpon>titre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\game.resx">
+      <DependentUpon>game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="monOpérateur\monOpérateur.resx">
+      <DependentUpon>monOpérateur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\nouveau\tutoSyntheseVocal.resx">
+      <DependentUpon>tutoSyntheseVocal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\nouveau\créerProfile.resx">
+      <DependentUpon>créerProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\principal\menuBienvenue.resx">
+      <DependentUpon>menuBienvenue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\principal\menuJouer.resx">
+      <DependentUpon>menuJouer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Centres\vehicules.resx">
+      <DependentUpon>vehicules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\chargementForm.resx">
+      <DependentUpon>chargementForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\gestion\cartographie.resx">
+      <DependentUpon>cartographie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\gestion\etares.resx">
+      <DependentUpon>etares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\gestion\departement.resx">
+      <DependentUpon>departement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\gestion\gestion.resx">
+      <DependentUpon>gestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages\msgformOuiNon.resx">
+      <DependentUpon>msgformOuiNon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages\msgBlackOuiNon.resx">
+      <DependentUpon>msgBlackOuiNon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages\msgBlack.resx">
+      <DependentUpon>msgBlack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages\msgformInfo.resx">
+      <DependentUpon>msgformInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paramètres.resx">
+      <DependentUpon>paramètres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UT Engine\Messages\UTEngineSPmessage.resx">
+      <DependentUpon>UTEngineSPmessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\splash.resx">
+      <DependentUpon>splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\maj.resx">
+      <DependentUpon>maj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Centres\centreIncendieSecours.resx">
+      <DependentUpon>centreIncendieSecours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Centres\nouveauCentre.resx">
+      <DependentUpon>nouveauCentre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev.resx">
+      <DependentUpon>dev.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devmode.resx">
+      <DependentUpon>devmode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\gestion\Appels.resx">
+      <DependentUpon>Appels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\interSP\suiviInterSP.resx">
+      <DependentUpon>suiviInterSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\interSP\cta-codis-aviser15.resx">
+      <DependentUpon>cta-codis-aviser15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\interSP\cta-codis-aviser17.resx">
+      <DependentUpon>cta-codis-aviser17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Parties\lancerJeuLibreSolo.resx">
+      <DependentUpon>lancerJeuLibreSolo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="erreur.resx">
+      <DependentUpon>erreur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\interSP\cta-codis.resx">
+      <DependentUpon>cta-codis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Parties\gestionParties.resx">
+      <DependentUpon>gestionParties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition\Parties\nouvellePartie.resx">
+      <DependentUpon>nouvellePartie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demarrage\start.resx">
+      <DependentUpon>start.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="um2020.pfx" />
+    <None Include="Urgence Manager_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixe4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading-bar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utnetwork gris.png" />
+    <None Include="Resources\utnetwork blanc.png" />
+    <None Include="Resources\ut engune blanc.png" />
+    <None Include="Resources\étoileVide.png" />
+    <None Include="Resources\étoilePleine.png" />
+    <None Include="Resources\demarrage.jpg" />
+    <None Include="Resources\racrocher24.png" />
+    <None Include="Resources\sms24.png" />
+    <None Include="Resources\microphone24.png" />
+    <None Include="Resources\tonalité.wav" />
+    <None Include="Resources\18.wav" />
+    <None Include="Resources\aucunPluginSelect.jpg" />
+    <None Include="Resources\liste plugin1.jpg" />
+    <None Include="Resources\msgModManquants.jpg" />
+    <None Include="Resources\uiMsg.wav" />
+    <None Include="Resources\uiWin.wav" />
+    <None Include="Resources\uifx.wav" />
+    <None Include="Resources\doc noir.jpg" />
+    <None Include="Resources\doc jaune.jpg" />
+    <None Include="Resources\détails noir.jpg" />
+    <None Include="Resources\détails jaune.jpg" />
+    <None Include="Resources\liste plugin.jpg" />
+    <None Include="Resources\lancer service.jpg" />
+    <None Include="Resources\retour.png" />
+    <None Include="Resources\titre zone jaune.jpg" />
+    <None Include="Resources\l.png" />
+    <None Include="Resources\bordure titre.jpg" />
+    <None Include="Resources\succès jaune.jpg" />
+    <None Include="Resources\succès gris.jpg" />
+    <None Include="Resources\statistiques jaune.jpg" />
+    <None Include="Resources\statistiques gris.jpg" />
+    <None Include="Resources\plugin favori gris.jpg" />
+    <None Include="Resources\débuter service jaune.jpg" />
+    <None Include="Resources\débuter service gris.jpg" />
+    <None Include="Resources\Urgence Manager couleur.png" />
+    <None Include="Resources\Urgence Manager 2020 blanc couleur1.png" />
+    <None Include="Resources\bas.png" />
+    <None Include="Resources\haut.png" />
+    <None Include="Resources\réglages jaune.jpg" />
+    <None Include="Resources\réglages gris.jpg" />
+    <None Include="Resources\mods installés jaune.jpg" />
+    <None Include="Resources\mods installés gris.jpg" />
+    <None Include="Resources\mon opérateur jaune1.jpg" />
+    <None Include="Resources\mon opérateur gris1.jpg" />
+    <None Include="Resources\mon opérateur jaune.jpg" />
+    <None Include="Resources\mon opérateur gris.jpg" />
+    <None Include="Resources\jouer mode libre jaune.jpg" />
+    <None Include="Resources\actualité accès gris.jpg" />
+    <None Include="Resources\fondlibre.jpg" />
+    <None Include="Resources\jouer mode libre gris.jpg" />
+    <None Include="bin\Debug\data\background.jpg" />
+    <Content Include="icon.ico" />
+    <Content Include="logo 08-09-2019.ico" />
+    <Content Include="logo 32.ico" />
+    <Content Include="logo um 32.ico" />
+    <None Include="Resources\Urgence Manager noir.png" />
+    <None Include="Resources\Urgence Manager blanc.png" />
+    <None Include="Resources\Urgence Manager 2020 noir.png" />
+    <None Include="Resources\Urgence Manager 2020 noir couleur.png" />
+    <None Include="Resources\Urgence Manager 2020 blanc.png" />
+    <None Include="Resources\Urgence Manager 2020 blanc couleur.png" />
+    <None Include="Resources\logo caré vide.png" />
+    <None Include="Resources\logo 08-09-2019.png" />
+    <None Include="Resources\Alerte d%27Urgence 2020 blanc.png" />
+    <None Include="Resources\Alerte d%27Urgence 2020 blanc couleur.png" />
+    <None Include="Resources\15.wav" />
+    <None Include="Resources\17.wav" />
+    <None Include="Resources\sapeurs-pompiers.jpg" />
+    <None Include="Resources\samu.jpg" />
+    <None Include="Resources\police_secours.jpg" />
+    <None Include="Resources\alcatel-lucent-ringing.wav" />
+    <None Include="Resources\afficher le dossier.png" />
+    <None Include="Resources\suivi des moyens.png" />
+    <None Include="Resources\suivi des missions.png" />
+    <None Include="Resources\suivi des appels.png" />
+    <None Include="Resources\logo 50 -trans.png" />
+    <None Include="Resources\Eclipse-1s-32px.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Edition\chargement\" />
+    <Folder Include="Edition\véhicules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

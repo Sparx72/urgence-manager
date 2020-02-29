@@ -1,0 +1,123 @@
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\bin\Release\Urgence Manager 2020.exe.manifest
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\bin\Release\Urgence Manager 2020.application
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\bin\Release\Urgence Manager 2020.exe
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\bin\Release\Urgence Manager 2020.pdb
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\bin\Release\Urgence Manager 2020.xml
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.configRecoVocale.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.configuration.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.configSyntheseVocale.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.vehicules.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.chargementForm.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cartographie.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.departement.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.gestion.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.SGIASPmessagePresentation.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.splash.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.maj.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.centreIncendieSecours.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.nouveauCentre.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.dev.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.devmode.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.Appels.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.suiviInterSP.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cta_codis_aviser15.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cta_codis_aviser17.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.lancerJeuLibreSolo.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.erreur.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.Form1.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.gestionOld.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cta_codis.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.Resources.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.gestionParties.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.nouvellePartie.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\SAMU_Centre_15.start.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\Urgence Manager.vbproj.GenerateResource.Cache
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\Urgence Manager 2020.TrustInfo.xml
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\Urgence Manager 2020.exe.manifest
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\Urgence Manager 2020.application
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\Urgence Manager 2020.exe
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\Urgence Manager 2020.xml
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.50\Urgence Manager\obj\x86\Release\Urgence Manager 2020.pdb
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\bin\Release\Urgence Manager.exe.manifest
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\bin\Release\Urgence Manager.application
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\bin\Release\Urgence Manager.exe
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\bin\Release\Urgence Manager.pdb
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\bin\Release\Urgence Manager.xml
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\bin\Release\Interop.WMPLib.dll
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.vbproj.ResolveComReference.cache
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.demarrage.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.configRecoVocale.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.configuration.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.configSyntheseVocale.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.fermeture.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.home.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.conditionsUtilisation.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.choixPlugin.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.apropos.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.statistiques.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.finIntervention.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.votreDépart.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.départRDF.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.départDIR.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.départSC.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.départFDO.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.départSAMU.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.départSP.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.dossierMédical.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.donnéeAppelSAMU.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.donnéeAppelFDO.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.donnéeAppelSP.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.msgModManquants.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.titre.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.game.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.monOpérateur.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.tutoSyntheseVocal.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.créerProfile.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.menuBienvenue.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.menuJouer.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.vehicules.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.chargementForm.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cartographie.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.etares.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.departement.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.gestion.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.msgformOuiNon.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.msgBlackOuiNon.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.msgBlack.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.msgformInfo.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.paramètres.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.UTEngineSPmessage.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.splash.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.maj.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.centreIncendieSecours.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.nouveauCentre.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.dev.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.devmode.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.Appels.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.suiviInterSP.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cta_codis_aviser15.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cta_codis_aviser17.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.lancerJeuLibreSolo.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.erreur.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.Form1.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.cta_codis.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.Resources.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.gestionParties.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.nouvellePartie.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\SAMU_Centre_15.start.resources
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.vbproj.GenerateResource.Cache
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.TrustInfo.xml
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.exe.manifest
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.application
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.exe
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.xml
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.57\Urgence Manager\obj\x86\Release\Urgence Manager.pdb
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.58\Urgence Manager\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.58\Urgence Manager\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.58\Urgence Manager\obj\x86\Release\Urgence Manager.vbproj.ResolveComReference.cache
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.58\Urgence Manager\obj\x86\Release\Urgence Manager.exe
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.58\Urgence Manager\obj\x86\Release\Urgence Manager.xml
+C:\Users\Antoine\Documents\Visual Studio 2010\Urgence Manager\WinForm\0.58\Urgence Manager\obj\x86\Release\Urgence Manager.pdb
